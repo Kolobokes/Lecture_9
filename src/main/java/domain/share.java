@@ -3,6 +3,7 @@ package domain;
 public class share {
     private int postID;
     private int amountShare;
+    private int userReposted;
 
     public int getPostID() {
         return postID;

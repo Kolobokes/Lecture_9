@@ -3,6 +3,11 @@ package domain;
 public class like {
     private boolean putLike;
     private boolean takeAwayLike;
+    private int count;
+    private int userLikes;
+    private int canLike;
+    private int canPublish;
+
 
     public boolean isPutLike() {
         return putLike;
