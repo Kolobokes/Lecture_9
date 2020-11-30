@@ -1,6 +1,8 @@
 package packageManager;
 
 public class PostManager {
+    private String search;
+    private String delete;
     private int[] post;
 
     public int[] getPost() {
@@ -26,8 +28,5 @@ public class PostManager {
     public void setDelete(String delete) {
         this.delete = delete;
     }
-
-    private String search;
-    private String delete;
 
 }
