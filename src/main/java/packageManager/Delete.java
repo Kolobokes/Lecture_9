@@ -1,6 +1,6 @@
 package packageManager;
 
-public class delete {
+public class Delete {
    private int ownerID;
    private int postID;
 

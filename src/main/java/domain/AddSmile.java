@@ -1,6 +1,6 @@
 package domain;
 
-public class send {
+public class AddSmile {
     private int commentID;
 
     public int getCommentID() {

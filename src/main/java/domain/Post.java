@@ -2,7 +2,7 @@ package domain;
 
 import java.util.Date;
 
-public class post {
+public class Post {
     private int id;
     private int accountID;
     private int fromID;
@@ -20,21 +20,85 @@ public class post {
     private String IsPinned;
     private String MarkedAsAdds;
     private Boolean IsFavourite;
-    class donut{};
-    class geo{};
-    class postSource{};
+    private Boolean donut;
+    private String geo;
+    private String postSource;
     private String accountPhotoURL;
     private String accountName;
     private Date date;
-    class postActions{};
+    private String postActions;
     private String content;
-    class like{};
+    private boolean like;
     private int amountLike;
-    class comment{};
+    private String comment;
     private int amountComment;
     private boolean showInFull;
-    class views{};
-    class writeComment{};
+    private String views;
+    private String writeComment;
+
+    public Boolean getDonut() {
+        return donut;
+    }
+
+    public void setDonut(Boolean donut) {
+        this.donut = donut;
+    }
+
+    public String getGeo() {
+        return geo;
+    }
+
+    public void setGeo(String geo) {
+        this.geo = geo;
+    }
+
+    public String getPostSource() {
+        return postSource;
+    }
+
+    public void setPostSource(String postSource) {
+        this.postSource = postSource;
+    }
+
+    public String getPostActions() {
+        return postActions;
+    }
+
+    public void setPostActions(String postActions) {
+        this.postActions = postActions;
+    }
+
+    public boolean isLike() {
+        return like;
+    }
+
+    public void setLike(boolean like) {
+        this.like = like;
+    }
+
+    public String getComment() {
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
+    }
+
+    public String getViews() {
+        return views;
+    }
+
+    public void setViews(String views) {
+        this.views = views;
+    }
+
+    public String getWriteComment() {
+        return writeComment;
+    }
+
+    public void setWriteComment(String writeComment) {
+        this.writeComment = writeComment;
+    }
 
     public int getAccountID() {
         return accountID;

@@ -1,9 +1,17 @@
 package domain;
 
-public class share {
+public class Share {
     private int postID;
     private int amountShare;
     private int userReposted;
+
+    public int getUserReposted() {
+        return userReposted;
+    }
+
+    public void setUserReposted(int userReposted) {
+        this.userReposted = userReposted;
+    }
 
     public int getPostID() {
         return postID;

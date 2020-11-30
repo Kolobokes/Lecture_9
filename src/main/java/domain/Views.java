@@ -1,6 +1,6 @@
 package domain;
 
-public class views {
+public class Views {
     private int postID;
     private int amountViews;
 

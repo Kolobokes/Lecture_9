@@ -1,6 +1,6 @@
 package packageManager;
 
-public class search {
+public class Search {
     private int ownerID;
     private String text;
     private boolean exit;

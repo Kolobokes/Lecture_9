@@ -1,6 +1,6 @@
 package domain;
 
-public class postActions {
+public class PostActions {
     private int postID;
 
     public void reportPost(){

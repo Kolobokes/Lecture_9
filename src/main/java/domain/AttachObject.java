@@ -1,6 +1,6 @@
 package domain;
 
-public class attachObject {
+public class AttachObject {
     private int commentID;
 
     public int getCommentID() {

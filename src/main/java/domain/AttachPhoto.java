@@ -1,11 +1,7 @@
 package domain;
 
-import javax.xml.stream.events.Comment;
-
-public class commentActions {
+public class AttachPhoto {
     private int commentID;
-    public void reportComment(){
-    }
 
     public int getCommentID() {
         return commentID;
