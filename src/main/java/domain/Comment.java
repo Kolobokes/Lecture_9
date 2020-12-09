@@ -8,8 +8,8 @@ public class Comment {
     private String author;
     private String content;
     private Date date;
-    private String commentActions;
-    private String commentAnswer;
+    private CommentActions CommentActions;
+    private CommentAnswer CommentAnswer;
     private String share;
 
     public int getPostID() {
@@ -52,27 +52,27 @@ public class Comment {
         this.date = date;
     }
 
-    public String getCommentActions() {
-        return commentActions;
-    }
-
-    public void setCommentActions(String commentActions) {
-        this.commentActions = commentActions;
-    }
-
-    public String getCommentAnswer() {
-        return commentAnswer;
-    }
-
-    public void setCommentAnswer(String commentAnswer) {
-        this.commentAnswer = commentAnswer;
-    }
-
     public String getShare() {
         return share;
     }
 
     public void setShare(String share) {
         this.share = share;
+    }
+
+    public domain.CommentActions getCommentActions() {
+        return CommentActions;
+    }
+
+    public void setCommentActions(domain.CommentActions commentActions) {
+        CommentActions = commentActions;
+    }
+
+    public domain.CommentAnswer getCommentAnswer() {
+        return CommentAnswer;
+    }
+
+    public void setCommentAnswer(domain.CommentAnswer commentAnswer) {
+        CommentAnswer = commentAnswer;
     }
 }

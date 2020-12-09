@@ -4,34 +4,10 @@ public class WriteComment {
     private int postID;
     private String authorURL;
     private String content;
-    private String attachObject;
-    private String attachPhoto;
-    private String addSmile;
+    private AttachObject AttachObject;
+    private AttachPhoto AttachPhoto;
+    private AddSmile AddSmile;
     private boolean send;
-
-    public String getAttachObject() {
-        return attachObject;
-    }
-
-    public void setAttachObject(String attachObject) {
-        this.attachObject = attachObject;
-    }
-
-    public String getAttachPhoto() {
-        return attachPhoto;
-    }
-
-    public void setAttachPhoto(String attachPhoto) {
-        this.attachPhoto = attachPhoto;
-    }
-
-    public String getAddSmile() {
-        return addSmile;
-    }
-
-    public void setAddSmile(String addSmile) {
-        this.addSmile = addSmile;
-    }
 
     public boolean isSend() {
         return send;
@@ -65,4 +41,27 @@ public class WriteComment {
         this.content = content;
     }
 
+    public domain.AttachObject getAttachObject() {
+        return AttachObject;
+    }
+
+    public void setAttachObject(domain.AttachObject attachObject) {
+        AttachObject = attachObject;
+    }
+
+    public domain.AttachPhoto getAttachPhoto() {
+        return AttachPhoto;
+    }
+
+    public void setAttachPhoto(domain.AttachPhoto attachPhoto) {
+        AttachPhoto = attachPhoto;
+    }
+
+    public domain.AddSmile getAddSmile() {
+        return AddSmile;
+    }
+
+    public void setAddSmile(domain.AddSmile addSmile) {
+        AddSmile = addSmile;
+    }
 }

@@ -21,20 +21,20 @@ public class Post {
     private String MarkedAsAdds;
     private Boolean IsFavourite;
     private Boolean donut;
-    private String geo;
-    private String postSource;
+    private Geo Geolocation;
+    private PostSource PostSource;
     private String accountPhotoURL;
     private String accountName;
     private Date date;
-    private String postActions;
+    private PostActions PostActions;
     private String content;
-    private boolean like;
+    private Like LikesInfo;
     private int amountLike;
-    private String comment;
+    private Comment CommentsInfo;
     private int amountComment;
     private boolean showInFull;
-    private String views;
-    private String writeComment;
+    private Views Views;
+    private WriteComment WriteComment;
 
     public Boolean getDonut() {
         return donut;
@@ -42,62 +42,6 @@ public class Post {
 
     public void setDonut(Boolean donut) {
         this.donut = donut;
-    }
-
-    public String getGeo() {
-        return geo;
-    }
-
-    public void setGeo(String geo) {
-        this.geo = geo;
-    }
-
-    public String getPostSource() {
-        return postSource;
-    }
-
-    public void setPostSource(String postSource) {
-        this.postSource = postSource;
-    }
-
-    public String getPostActions() {
-        return postActions;
-    }
-
-    public void setPostActions(String postActions) {
-        this.postActions = postActions;
-    }
-
-    public boolean isLike() {
-        return like;
-    }
-
-    public void setLike(boolean like) {
-        this.like = like;
-    }
-
-    public String getComment() {
-        return comment;
-    }
-
-    public void setComment(String comment) {
-        this.comment = comment;
-    }
-
-    public String getViews() {
-        return views;
-    }
-
-    public void setViews(String views) {
-        this.views = views;
-    }
-
-    public String getWriteComment() {
-        return writeComment;
-    }
-
-    public void setWriteComment(String writeComment) {
-        this.writeComment = writeComment;
     }
 
     public int getAccountID() {
@@ -292,5 +236,60 @@ public class Post {
         this.showInFull = showInFull;
     }
 
+    public Geo getGeolocation() {
+        return Geolocation;
+    }
+
+    public void setGeolocation(Geo geolocation) {
+        Geolocation = geolocation;
+    }
+
+    public domain.PostSource getPostSource() {
+        return PostSource;
+    }
+
+    public void setPostSource(domain.PostSource postSource) {
+        PostSource = postSource;
+    }
+
+    public domain.PostActions getPostActions() {
+        return PostActions;
+    }
+
+    public void setPostActions(domain.PostActions postActions) {
+        PostActions = postActions;
+    }
+
+    public Like getLikesInfo() {
+        return LikesInfo;
+    }
+
+    public void setLikesInfo(Like likesInfo) {
+        LikesInfo = likesInfo;
+    }
+
+    public Comment getCommentsInfo() {
+        return CommentsInfo;
+    }
+
+    public void setCommentsInfo(Comment commentsInfo) {
+        CommentsInfo = commentsInfo;
+    }
+
+    public domain.Views getViews() {
+        return Views;
+    }
+
+    public void setViews(domain.Views views) {
+        Views = views;
+    }
+
+    public domain.WriteComment getWriteComment() {
+        return WriteComment;
+    }
+
+    public void setWriteComment(domain.WriteComment writeComment) {
+        WriteComment = writeComment;
+    }
 }
 
